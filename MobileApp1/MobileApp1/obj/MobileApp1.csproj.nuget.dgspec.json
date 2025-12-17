@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KaueCMP2\\Documents\\Projetos-CSharp\\MobileApp1\\MobileApp1\\MobileApp1.csproj": {}
+    "C:\\Users\\KaueCMP2\\Documents\\dotnet-maui-projects\\MobileApp1\\MobileApp1\\MobileApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KaueCMP2\\Documents\\Projetos-CSharp\\MobileApp1\\MobileApp1\\MobileApp1.csproj": {
+    "C:\\Users\\KaueCMP2\\Documents\\dotnet-maui-projects\\MobileApp1\\MobileApp1\\MobileApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KaueCMP2\\Documents\\Projetos-CSharp\\MobileApp1\\MobileApp1\\MobileApp1.csproj",
+        "projectUniqueName": "C:\\Users\\KaueCMP2\\Documents\\dotnet-maui-projects\\MobileApp1\\MobileApp1\\MobileApp1.csproj",
         "projectName": "MobileApp1",
-        "projectPath": "C:\\Users\\KaueCMP2\\Documents\\Projetos-CSharp\\MobileApp1\\MobileApp1\\MobileApp1.csproj",
+        "projectPath": "C:\\Users\\KaueCMP2\\Documents\\dotnet-maui-projects\\MobileApp1\\MobileApp1\\MobileApp1.csproj",
         "packagesPath": "C:\\Users\\KaueCMP2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KaueCMP2\\Documents\\Projetos-CSharp\\MobileApp1\\MobileApp1\\obj\\",
+        "outputPath": "C:\\Users\\KaueCMP2\\Documents\\dotnet-maui-projects\\MobileApp1\\MobileApp1\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

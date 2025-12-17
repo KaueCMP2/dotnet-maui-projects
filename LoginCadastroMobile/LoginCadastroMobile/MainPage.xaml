@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginCadastroMobile.MainPage">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <BoxView Grid.Row="0"
+                     BackgroundColor="#2B0B98"/>
+            <Label Grid.Row="0" 
+                   Text="Login"
+                   TextColor="White"
+                   FontSize="50"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+            <ScrollView Grid.Row="1">
+                <VerticalStackLayout Padding="20">
+                    <Label Text="E-mail"
+                           Margin="0,20,0,0"/>
+                    <Entry x:Name="txtEmail"
+                           Keyboard="Email"
+                           Placeholder="email@email.com"/>
+
+                    <Label Text="Senha"
+                           Margin="0,20,0,0"/>
+                    <Entry x:Name="txtSenha"  IsPassword="True"
+                           Placeholder="********"/>
+
+                    <Button x:Name="btnLogin"
+                            Text="Entrar"
+                            Margin="0,20,0,0"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="350"
+                            BackgroundColor="#2B0B98"
+                            Clicked="Button_Clicked"/>
+
+                    <Label x:Name="lnkCadastro"
+                           Text="Ainda não possui conta? Cadastre-se"
+                           FontSize="15"
+                           Margin="0,20,0,0"
+                           HorizontalOptions="Center">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                    Tapped="TapGestureRecognizer_Tapped"
+                                    NumberOfTapsRequired="1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
