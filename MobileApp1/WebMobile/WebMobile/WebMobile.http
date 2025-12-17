@@ -1,0 +1,6 @@
+@WebMobile_HostAddress = http://localhost:5294
+
+GET {{WebMobile_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
